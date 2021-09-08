@@ -7,19 +7,27 @@ Escriba un programa en el cual usted cree un objeto URL e imprima en pantalla ca
 Es decir , debe usar los siguientes métodos: getProtocol, getAuthority, getHost, getPort, getPath, getQuery, getFile, getRef. 
 Asegúrese que ninguno imprima una cadena vacía, esto implica que la URL que use para su objeto debe contener datos suficientes.
 
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.Networking.Url.URLScanner" y añadir el parámetro.
+
 ## EJERCICIO 2
 Escriba una aplicación browser que dada una URL lea datos de esa dirección y que los almacene en un archivo con el nombre resultado.html. 
 Intente ver este archivo en el navegador. Su implementación debe ser un programa que reciba el parámetro de URL por medio de la línea de comandos.
+
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.Networking.Url.URLReader"  y añadir el parámetro.
 
 ## EJERCICIO 3
 Usando sockets escriba un servidor que reciba un número y responda el cuadrado de este número. Escriba un cliente para probarlo y envíele 
 una secuencia de 20 números.
 
-RETO 1
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.Networking.Square.EchoServerSquare"
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.Networking.Square.EchoClientSquare"
+
+## RETO 1
 Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurrentes). El servidor debe retornar todos los archivos 
 solicitados, incluyendo páginas html e imágenes. Construya un sitio web con javascript para probar su servidor. Despliegue su solución 
 en Heroku. NO use frameworks web como Spark o Spring use solo Java y las librerías para manejo de la red.
 
+[![Heroku](https://www.herokucdn.com/deploy/button.png)](https://clientesserviciosarep.herokuapp.com/index.html)
 
 ## Diagrama de clases
 
