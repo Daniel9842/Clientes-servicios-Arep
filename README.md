@@ -53,7 +53,7 @@ Para la ejecución es necesario iniciar el servidor y en el navegador colocar 12
 carpeta TestHttpServer para probar con dichos archivos.
 
 ## Reporte de pruebas
-![Tests Test Report](Design/TestReport.PNG "Test Report")<br>
+![Tests Test Report](Design/Test.PNG "Test Report")<br>
 Se realiza el reporte de pruebas con todas las pruebas satisfactorias.
 Para las pruebas de HttpServer se encuentra la carpeta TestHttpServer con 3 archivos html y 3 imágenes en formato png,jpg y jfif.
 Al ejecutar las pruebas se crea un archivo resultado.html en la raiz de la carpeta, si este archivo se crea quiere decir que la prueba de 
