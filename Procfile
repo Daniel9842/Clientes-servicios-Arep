@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* edu.escuelaing.arep.Networking.HttpServer
+web: java -cp target/classes:target/dependency/* edu.escuelaing.arep.Networking.HttpServer.HttpServer
